@@ -1,0 +1,36 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+  grid-template-rows: 1fr 1fr; /* Duas linhas de tamanho igual */
+  gap: 2rem; /* Espaço entre as linhas e colunas */
+}
+
+.doughnut-container {
+  grid-column: 1; /* Primeira coluna */
+  grid-row: 1; /* Primeira linha */
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.line-container {
+  grid-column: 1; /* Primeira coluna */
+  grid-row: 2; /* Segunda linha */
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.radar-container {
+  grid-column: 2; /* Segunda coluna */
+  grid-row: 1; /* Estende-se da primeira até a segunda linha */
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+}
+
+.grouped-container {
+  grid-column: 2;
+  grid-row: 2;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 3rem;
+}
